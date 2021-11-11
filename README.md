@@ -14,7 +14,7 @@ While svelte does offer an [official component template](https://github.com/svel
 
 ## Getting Started
 
-These commands will set you up with a SvelteKit development enviornment:
+These commands will set you up with a SvelteKit development environment:
 
 ```bash
 npx degit tropix126/sveltekit-package-template my-package
