@@ -74,4 +74,4 @@ Developers using your library could import the theme file like so:
 <ComponentThatUsesTheming />
 ```
 
-Many modern bundlers support importing CSS as ES Modules. This is likely to be the best way of importing theme files, as they can be easily resolved from `node_modules`. Alternatively, you can use @import syntax with postcss-import plugin in your \<style> tags, or consider CDNS such as [unpkg](https://unpkg.com/).
+Many modern bundlers support importing CSS as ES Modules. This is likely to be the best way of importing theme files, as they can be easily resolved from `node_modules`. Alternatively, you can use @import syntax with the postcss-import plugin or sass in your \<style> tags, or consider CDNS such as [unpkg](https://unpkg.com/).
