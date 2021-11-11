@@ -25,7 +25,7 @@ npm run dev
 
 From there, you can edit the example Counter component in [src/lib/Counter/Counter.svelte](/src/lib/Counter/Counter.svelte).
 
-The `index.ts` file in `src/lib` exports your components for use in the package.
+The [`index.ts`](/src/lib/index.ts) file in [`src/lib`](/src/lib) exports your components for use in the package.
 
 ## Packaging and Publishing
 
@@ -37,7 +37,7 @@ To package your components, simply run the package command:
 npm run package
 ```
 
-This will preprocess the contents of `src/lib` into a `package` folder at the root of your project.
+This will preprocess the contents of [`src/lib`](/src/lib) into a `package` folder at the root of your project.
 
 ### Publishing to NPM
 
@@ -47,7 +47,7 @@ Be sure to properly configure `package.json` with the correct data before publis
 
 ## Routes
 
-Since the package command only generates it's files from `src/lib`, you are free to put whatever you wish in the `routes` folder. This could be used as a documentation site for your component, as an example.
+Since the package command only generates it's files from [`src/lib`](/src/lib), you are free to put whatever you wish in the [`routes`](/src/routes) folder. This could be used as a documentation site for your component, as an example.
 
 ## Using your Package
 
@@ -62,7 +62,7 @@ Consumers of your package can import components from it in external projects lik
 
 ## Setting up Theming
 
-If you plan to develop a large amount of components, it may become necessary to have people import a theme stylesheet containing variables. This can be done by creating a `theme.css` file in `src/lib` and having people import it from `node_modules`.
+If you plan to develop a large amount of components, it may become necessary to have people import a theme stylesheet containing variables. This can be done by creating a `theme.css` file in [`src/lib`](/src/lib) and having people import it from `node_modules`.
 
 Developers using your library could import the theme file like so:
 ```html
