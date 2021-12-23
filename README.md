@@ -62,7 +62,7 @@ Consumers of your package can import components from it in external projects lik
 
 ## Setting up Documentation
 
-Most components will need documentation in some form. This template doesn't have any opinions on how documentation should be handled, however it does provide you with SvelteKit's `routes` folder which can be used for this. Below are some very use svelte-focused tools that can make your life considerably easier when documenting components:
+Most components will need documentation in some form. This template doesn't have any opinions on how documentation should be handled, however it does provide you with SvelteKit's `routes` folder which can be used for this. Below are some very useful svelte-focused tools that can make your life considerably easier when documenting components:
 - [vite-plugin-svled](https://github.com/mattjennings/vite-plugin-sveld) is a vite port of [sveld](https://github.com/carbon-design-system/sveld/) allows you to automatically generate API documentation for your svelte components using typescript types and JSDoc comments.
 - [mdsvex](https://mdsvex.pngwn.io/) is a superset of markdown that allows the usage of Svelte components and interactive logic. Since mdsvex preprocesses your markdown files into Svelte components, it can also be used as SvelteKit routes.
 - [mdsvex-sveld](https://github.com/mattjennings/mdsvex-sveld) is an mdsvex plugin that automatically outputs markdown tables for component API documentation using [sveld](https://github.com/carbon-design-system/sveld/).
