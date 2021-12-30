@@ -1,8 +1,8 @@
 <script lang="ts">
-    /** Default value of the counter */
+    /** Default value of the counter. */
     export let value: number = 0;
 
-    /** Specifies a custom class name for the outer container */
+    /** Specifies a custom class name for the outer container. */
     let className = '';
     export { className as class }; // "class" is a reserved namespace in JS
 </script>
