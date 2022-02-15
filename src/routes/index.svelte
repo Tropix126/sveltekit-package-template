@@ -8,7 +8,7 @@
 <h2>Usage</h2>
 <p>Everything in your package should be contained in <code>src/lib</code>. To package your component(s), run <code>npm run package</code>. This will do a few things:</p>
 <ul>
-    <li>Transform your typescript types into external <code>d.ts</code> files so users of your library won't need to setup preprocessing.</li>
+    <li>Transform your typescript types into external <code>d.ts</code> files so users of your library won't need to setup preprocessing to deliver component-level type definitions.</li>
     <li>Preprocess your styles into regular minified and prefixed CSS using <a href="https://cssnano.co/" target="_blank" rel="noreferrer noopener">cssnano</a> and <a href="https://github.com/postcss/autoprefixer" target="_blank" rel="noreferrer noopener">autoprefixer</a>.</li>
     <li>Export the contents of <code>src/lib</code> with the above transformations into a <code>./package</code> folder at this project's root directory.</li>
 </ul>
