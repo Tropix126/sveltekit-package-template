@@ -7,7 +7,8 @@
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "package": "svelte-kit package"
+    "package": "svelte-kit package",
+    "publish": "npm publish ./package"
   },
   "devDependencies": {
     "@sveltejs/kit": "next",
